@@ -1,5 +1,8 @@
 import Inheritance1.Laptop;
 import Inheritance1.SmartPhone;
+import Override1.NewSchoolRap;
+import Override1.OldSchoolRap;
+import Override1.RapSong;
 
 public class Main {
 
