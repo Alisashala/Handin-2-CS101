@@ -1,8 +1,11 @@
+import Inheritance1.Laptop;
+import Inheritance1.SmartPhone;
+
 public class Main {
 
     public static void main(String[] args) {
 
-// 1 - Inheritance: In the main method create a Laptop and a SmartPhone
+// 1 - Inheritance: In the main method create a Inheritance1.Laptop and a Inheritance1.SmartPhone
 
         SmartPhone smartPhone = new SmartPhone("Iphone 12", 128, 89, 2);
         smartPhone.wasBought();

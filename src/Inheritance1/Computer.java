@@ -1,3 +1,5 @@
+package Inheritance1;
+
 public class Computer {
     // inheritance 1 - For a parent class add 3 properties, 2 methods, and a constructor.
     private String product;
@@ -8,6 +10,18 @@ public class Computer {
         this.product = product;
         this.gigabyte = gigabyte;
         this.battery = battery;
+    }
+
+    public String getProduct () {
+        return this.product;
+    }
+
+    public int getGigabyte () {
+        return this.gigabyte;
+    }
+
+    public int getBattery () {
+        return this.battery;
     }
 
     public void information () {
