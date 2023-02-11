@@ -6,7 +6,6 @@ public class SmartPhone extends Computer {
 
     public SmartPhone(String product, int gigabyte, int battery, int nrOfCamera) {
         super(product, gigabyte, battery);
-
         this.nrOfCamera = nrOfCamera;
     }
 

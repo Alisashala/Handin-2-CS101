@@ -31,6 +31,5 @@ public class Computer {
         System.out.println("This " + this.product + " was bought today");
     }
 
-
 }
 

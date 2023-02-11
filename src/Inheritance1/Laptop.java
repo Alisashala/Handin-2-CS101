@@ -15,4 +15,5 @@ public class Laptop extends Computer {
     public void colorOfLaptop () {
         System.out.println("The color of the laptop is " + color);
     }
+
 }
