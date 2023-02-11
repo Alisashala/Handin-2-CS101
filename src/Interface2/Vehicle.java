@@ -1,7 +1,8 @@
 package Interface2;
 
+//Create a class that implements the following interface. Now create two objects using the class created
 public interface Vehicle {
-        void changeGear(int a);
-        void speedUp(int a);
-        void applyBrakes(int a);
+        public void changeGear(int a);
+        public void speedUp(int a);
+        public void applyBrakes(int a);
 }

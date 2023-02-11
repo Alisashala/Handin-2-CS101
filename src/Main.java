@@ -1,5 +1,6 @@
 import Inheritance1.Laptop;
 import Inheritance1.SmartPhone;
+import Interface1.FastFood;
 import Interface2.SportsCar;
 import Override1.NewSchoolRap;
 import Override1.OldSchoolRap;
@@ -9,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-// 1 - Inheritance: In the main method create a laptop and a SmartPhone
+// Inheritance 1: In the main method create a laptop and a SmartPhone
 
         SmartPhone smartPhone = new SmartPhone("Iphone 12", 128, 89, 2);
         smartPhone.wasBought();
@@ -19,14 +20,18 @@ public class Main {
         laptop.information();
         laptop.colorOfLaptop();
 
-// Interface 2:
+// Interface 1: Add some different Fastfood objects to an array. Now iterate through that array and use some of the methods you have created above.
+
+
+// Interface 2: Create a class that implements the following interface. Now create two objects using the class created
+
         SportsCar AudiTT = new SportsCar("Audi", 750000.00, 2018);
         SportsCar BMWm3 = new SportsCar("BMW", 600000.00, 2019);
         System.out.println(AudiTT);
         System.out.println(BMWm3);
 
 
-// 5 - Override: In the Main class, create an instance of each class and call the play method on each
+//  Override: In the Main class, create an instance of each class and call the play method on each
 
         RapSong oldSchool = new OldSchoolRap();
         oldSchool.playRap();

@@ -22,10 +22,6 @@ public class SportsCar implements Vehicle {
         return this.year;
     }
 
-    public SportsCar() {
-
-    }
-
     @Override
     public void changeGear(int a) {
     }

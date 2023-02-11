@@ -2,9 +2,10 @@ package Interface1;
 
 import java.util.ArrayList;
 
+// Create an interface called FastFood (with appropriate methods)
+
 public interface FastFood {
-    String getName();
-    int getCalories();
-    ArrayList<String> getFastfood();
+    public String getName();
+    public double getCalories();
 
 }
