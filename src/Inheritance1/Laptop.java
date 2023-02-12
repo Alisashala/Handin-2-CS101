@@ -1,7 +1,7 @@
 package Inheritance1;
 
+// For a child class add at least 1 additional property and 1 additional method.
 public class Laptop extends Computer {
-    // inheritance 1 - For a child class add at least 1 additional property and 1 additional method.
     private String color;
 
     public Laptop(String product, int gigabyte, int battery, String color) {

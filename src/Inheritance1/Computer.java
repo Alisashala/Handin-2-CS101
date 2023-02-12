@@ -1,7 +1,8 @@
 package Inheritance1;
 
+//For a parent class add 3 properties, 2 methods, and a constructor.
+
 public class Computer {
-    // inheritance 1 - For a parent class add 3 properties, 2 methods, and a constructor.
     private String product;
     private int gigabyte;
     private int battery;
